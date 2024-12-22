@@ -1,0 +1,62 @@
+analyst_task:
+  description: |
+    Analyze the following {text} and answer the following questions.
+
+    Q1: ¿El agente saluda al inicio de la llamada?
+    Opciones de respuesta: Si, No
+    Q2: ¿El agente es amable y cortés?
+    Opciones de respuesta: Si, No
+    Q3: ¿El agente es claro y directo en sus respuestas?
+    Opciones de respuesta: Si, No
+    Q4: ¿El agente es capaz de resolver el problema del cliente?
+    Opciones de respuesta: Si, No
+  expected_output: >
+    A JSON with the answers to the questions.
+  agent: analyst
+# customer_service_task:
+#   description: |
+#     Analiza la siguiente conversación {text} y responde estas preguntas sobre atención al cliente:
+
+#     Q1: ¿El agente se identifica con nombre y apellido?
+#     Opciones de respuesta: Si, No
+#     Q2: ¿El agente verifica la identidad del cliente?
+#     Opciones de respuesta: Si, No
+#     Q3: ¿El agente mantiene un tono profesional durante toda la llamada?
+#     Opciones de respuesta: Si, No
+#     Q4: ¿El agente realiza preguntas de sondeo para entender mejor el problema?
+#     Opciones de respuesta: Si, No
+#   expected_output: >
+#     Un JSON con las respuestas a las preguntas.
+#   agent: customer_service_analyst
+
+# technical_support_task:
+#   description: |
+#     Evalúa la siguiente conversación {text} y responde estas preguntas sobre soporte técnico:
+
+#     Q1: ¿El agente realiza un diagnóstico básico del problema?
+#     Opciones de respuesta: Si, No
+#     Q2: ¿El agente proporciona instrucciones técnicas claras y paso a paso?
+#     Opciones de respuesta: Si, No
+#     Q3: ¿El agente verifica que el cliente pueda seguir las instrucciones?
+#     Opciones de respuesta: Si, No
+#     Q4: ¿El agente ofrece soluciones alternativas si la primera opción no funciona?
+#     Opciones de respuesta: Si, No
+#   expected_output: >
+#     Un JSON con las respuestas a las preguntas.
+#   agent: technical_analyst
+
+# sales_task:
+#   description: |
+#     Revisa la siguiente conversación {text} y responde estas preguntas sobre ventas:
+
+#     Q1: ¿El agente identifica oportunidades de venta durante la llamada?
+#     Opciones de respuesta: Si, No
+#     Q2: ¿El agente explica claramente los beneficios de los productos/servicios?
+#     Opciones de respuesta: Si, No
+#     Q3: ¿El agente maneja adecuadamente las objeciones del cliente?
+#     Opciones de respuesta: Si, No
+#     Q4: ¿El agente realiza un cierre efectivo de la venta o seguimiento?
+#     Opciones de respuesta: Si, No
+#   expected_output: >
+#     Un JSON con las respuestas a las preguntas.
+#   agent: sales_analyst

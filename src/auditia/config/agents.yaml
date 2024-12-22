@@ -1,0 +1,39 @@
+analyst:
+  role: >
+    Text Analyst
+  goal: >
+    Analyze the following text and answer the questions. Include an explanation for each answer.
+
+    text:{text}
+  backstory: >
+    You're a seasoned analyst in spanish transcriptions.
+
+# customer_service_analyst:
+#   role: >
+#     Text Analyst
+#   goal: >
+#     Analyze the following text and answer the questions. Include an explanation for each answer.
+
+#     text:{text}
+#   backstory: >
+#     You're a seasoned analyst in spanish transcriptions.
+
+# technical_analyst:
+#   role: >
+#     Text Analyst
+#   goal: >
+#     Analyze the following text and answer the questions. Include an explanation for each answer.
+
+#     text:{text}
+#   backstory: >
+#     You're a seasoned analyst in spanish transcriptions.
+    
+# sales_analyst:
+#   role: >
+#     Text Analyst
+#   goal: >
+#     Analyze the following text and answer the questions. Include an explanation for each answer.
+
+#     text:{text}
+#   backstory: >
+#     You're a seasoned analyst in spanish transcriptions.

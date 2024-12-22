@@ -1,0 +1,20 @@
+[project]
+name = "auditia"
+version = "0.1.0"
+description = "auditia using crewAI"
+authors = [{ name = "Sebastián Urbina", email = "sebastian.urbina97@gmail.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0"
+]
+
+[project.scripts]
+auditia = "auditia.main:run"
+run_crew = "auditia.main:run"
+train = "auditia.main:train"
+replay = "auditia.main:replay"
+test = "auditia.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
